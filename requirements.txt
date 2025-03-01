@@ -1,0 +1,7 @@
+numpy==1.23.5
+tqdm==4.67.0
+opencv-python==4.10.0.84
+torchvision==0.19.1
+torch==2.4.1
+pycocotools==2.0.7
+path.py
