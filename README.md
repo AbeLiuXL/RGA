@@ -13,7 +13,7 @@ The Segment Anything Model (SAM) is a cornerstone of image segmentation, demonst
 
 ## Build Environment
 ```bash 
-git clone git clone https://github.com/
+git clone git clone https://github.com/AbeLiuXL/RGA.git
 cd RGA
 # use anaconda to build environment 
 conda create -n sam_attack python=3.8 -y  
