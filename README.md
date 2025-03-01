@@ -66,7 +66,6 @@ python attack_sam.py --data_dir data/sa_1_10 --run_name sa_1_10 --is_single_img 
 ```bash
 python eval.py --adv_dir output/test/adv_imgs --data_dir data/sa_1_10 
 ```
-
 ## BibTeX 
 ```bibtex
 @article{liu2024region,
