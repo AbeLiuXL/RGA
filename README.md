@@ -36,8 +36,6 @@ Other models can be downloaded from [here](https://github.com/facebookresearch/s
 ```bash
 git clone https://github.com/yformer/EfficientSAM
 ```
-[EfficientSAM-S](https://github.com/yformer/EfficientSAM/blob/main/weights/efficient_sam_vits.pt.zip)
-
 - **FastSAM**
 ```bash
 git clone  https://github.com/CASIA-IVA-Lab/FastSAM
