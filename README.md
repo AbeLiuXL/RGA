@@ -6,8 +6,9 @@
 ## Abstract
 The Segment Anything Model (SAM) is a cornerstone of image segmentation, demonstrating exceptional performance across various applications, particularly in autonomous driving and medical imaging, where precise segmentation is crucial. However, SAM is vulnerable to adversarial attacks that can significantly impair its functionality through minor input perturbations. Traditional techniques, such as FGSM and PGD, are often ineffective in segmentation tasks due to their reliance on global perturbations that overlook spatial nuances. Recent methods like Attack-SAM-K and UAD have begun to address these challenges, but they frequently depend on external cues and do not fully leverage the structural interdependencies within segmentation processes. This limitation underscores the need for a novel adversarial strategy that exploits the unique characteristics of segmentation tasks. In response, we introduce the Region-Guided Attack (RGA), designed specifically for SAM. RGA utilizes a Region-Guided Map (RGM) to manipulate segmented regions, enabling targeted perturbations that fragment large segments and expand smaller ones, resulting in erroneous outputs from SAM. Our experiments demonstrate that RGA achieves high success rates in both white-box and black-box scenarios, emphasizing the need for robust defenses against such sophisticated attacks. RGA not only reveals SAM's vulnerabilities but also lays the groundwork for developing more resilient defenses against adversarial threats in image segmentation.
 
-<p align="center"> <img src="imgs/RGA.png" width="70%"/> <img src="imgs/vis.png" width=70%"/> </p>
-<img src="imgs/vis2.png" width=70%"/> </p>
+<p align="center"> <img src="imgs/RGA.png" width="70%"/> </p>
+<p align="center"> <img src="imgs/vis.png" width=70%"/> </p>
+<p align="center"><img src="imgs/vis2.png" width=70%"/> </p>
 
 ## Latest Update
 **2025/03/01**   We have released the official implementation code.
