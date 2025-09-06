@@ -67,6 +67,20 @@ python attack_sam.py --data_dir data/sa_1_10 --run_name sa_1_10 --is_single_img 
 python eval.py --adv_dir output/test/adv_imgs --data_dir data/sa_1_10 
 ```
 ## BibTeX 
+
+```bibtex
+@article{LIU2025108058,
+title = {Region-Guided Attack on the Segment Anything Model},
+journal = {Neural Networks},
+pages = {108058},
+year = {2025},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/j.neunet.2025.108058},
+url = {https://www.sciencedirect.com/science/article/pii/S0893608025009384},
+author = {Xiaoliang Liu and Furao Shen and Jian Zhao},
+}
+```
+
 ```bibtex
 @article{liu2024region,
   title={Region-Guided Attack on the Segment Anything Model (SAM)},
